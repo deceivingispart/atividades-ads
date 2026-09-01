@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.container-formulario {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.container-formulario h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.cabecalho {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.subtitulo {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.campo {
+  margin-bottom: 15px;
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.campo-termos {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.campo-termos input[type="checkbox"] {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.campo-termos label {
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+}
+
+.campo-secundario {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.ajuda {
+  color: #8a8989;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.btn-finalizar {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-finalizar:hover {
+  background-color: #0056b3;
+}
+
+/* tela de login */
+.forgot {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  text-align: right;
+}
